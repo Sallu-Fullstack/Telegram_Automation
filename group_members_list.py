@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 
-api_id = '26844307'
-api_hash = '48fb030ae74cdc378e2871aa736b155b'
+api_id = 'Your_Api_Id_here'
+api_hash = 'Your_Api_hash_here'
 
 group_username = 'mturkupdate'
 
