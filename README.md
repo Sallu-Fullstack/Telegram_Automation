@@ -30,3 +30,4 @@ To run the scripts, you need to install the required libraries. Run the followin
 ```bash
 pip install telethon
 ```
+### 3. Usage
