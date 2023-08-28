@@ -2,8 +2,8 @@ import time
 import json
 from telethon.sync import TelegramClient
 
-api_id = '25792473'
-api_hash = '93933d996baedd3feb3de57e7be39a85'
+api_id = 'Your_Api_Id_here'
+api_hash = 'Your_Api_hash_here'
 
 group_username = 'mturkupdate'
 
