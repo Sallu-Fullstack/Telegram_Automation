@@ -1,16 +1,16 @@
 import time
 from telethon.sync import TelegramClient
 
-api_id = '25792473'
-api_hash = '93933d996baedd3feb3de57e7be39a85'
+api_id = 'Your_Api_Id_here'
+api_hash = 'Your_Api_hash_here'
 
 group_username = 'mturkupdate'
 
 # Paths to the images you want to send
-# image_path1 = r"D:\Mturk\Mturk_Ads_Salman.png"
-image_path1 = r"D:\Mturk\Mturk_Ads_Waseem.jpeg"
+image_path1 = r"D:\Mturk\Mturk_Ads_Salman.png"
 image_path2 = r"C:\Users\HP\Downloads\mturkscreen3.png"
-image_path3 = r"C:\Users\HP\Downloads\NOVA_TURK.jpeg"
+# image_path1 = r"D:\Mturk\Mturk_Ads_Waseem.jpeg"
+# image_path3 = r"C:\Users\HP\Downloads\NOVA_TURK.jpeg"
 
 # Customize your message
 message_text = '''
@@ -63,8 +63,8 @@ with TelegramClient('session_name', api_id, api_hash) as client:
                 media_group.append(client.upload_file(image_file1))
             with open(image_path2, 'rb') as image_file2:
                 media_group.append(client.upload_file(image_file2))
-            with open(image_path3, 'rb') as image_file3:
-                media_group.append(client.upload_file(image_file3))
+            # with open(image_path3, 'rb') as image_file3:
+            #     media_group.append(client.upload_file(image_file3))
             
             client.send_message(participant.id, message_text, file=media_group)
             
