@@ -1,8 +1,8 @@
 # Telegram Group Automation Script 📲
 
 <div align="center">
-  <img src="image1.jpg" alt="Image 1" width="400" height="300"/>
-  <img src="image2.jpg" alt="Image 2" width="400" height="300"/>
+  <img src="image1.png" alt="Image 1" width="400" height="300"/>
+  <img src="image2.png" alt="Image 2" width="400" height="300"/>
 </div>
 
 This repository contains a set of Python scripts that leverage the Telethon library to automate tasks within a Telegram group. The provided scripts offer various functionalities:
