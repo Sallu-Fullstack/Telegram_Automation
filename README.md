@@ -19,7 +19,7 @@ This repository contains a set of Python scripts that leverage the Telethon libr
 ### 1. API Creation
 
 Before using any of the scripts, you need to create an API on Telegram's website:
-1. Visit the [Telegram API website](https://my.telegram.org/auth?to=apps){:target="_blank"}.
+1. Visit the [Telegram API website](https://my.telegram.org/auth?to=apps).
 2. Sign in with your Telegram account.
 3. Create a new application to get your `api_id` and `api_hash`.
 
